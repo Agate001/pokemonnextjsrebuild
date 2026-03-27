@@ -16,7 +16,7 @@ export default function SearchBar({ onSearch }: Props) {
         if (!value) return;
         onSearch(value);
       }}
-      className="mb-6 flex w-full max-w-xl gap-3"
+      className="mb-2 flex w-full max-w-xl gap-3"
     >
       <input
         type="text"
